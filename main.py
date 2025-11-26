@@ -1,6 +1,8 @@
 from fastapi import FastAPI
 import uvicorn 
 from classes import *
+import csv
+
 
 #בניית בסיס
 base = Seven_Harvests()
@@ -34,6 +36,9 @@ def home():
 
 
 
+@app.get("/search")
+def aaa():
+   return {s1.city}
 
-# if __name__=="__main__":
-#     uvicorn
+
+
