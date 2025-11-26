@@ -46,7 +46,7 @@ for j in name_of_room2:
    b2.list_of_room.append(j)
 
 
-s1 = Soldier(2, "yishay", "ossi", "z", "netanta", 35)
+
     
 
 

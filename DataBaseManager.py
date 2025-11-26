@@ -28,16 +28,7 @@ class DatabaseManageri:
 
 
 
-    def get_all_persons(self):
-     self.cursor.execute("SELECT * FROM table_of_soldier")
-     rows = self.cursor.fetchall()
-
-     persons = []
-     for row in rows:
-        person = persons(row[0], row[1], row[2], row[3], row[4], row[5])
-        persons.append(person)
-
-     return persons
+  
     
 
 
